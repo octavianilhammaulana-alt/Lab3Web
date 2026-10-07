@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initia   l-scale=1.0" />
+    <link rel="stylesheet" href="style_external.css">
+    <title>CSS Dasar</title>
+    <style>
+      body {
+        font-family: "Open Sans", sans-serif;
+      }
+      header {
+        min-height: 80px;
+        border-bottom: 1px solid #88ddfa;
+      }
+      h1 {
+        font-size: 24px;
+        color: #1b291c;
+        text-align: center;
+        padding: 20px 10px;
+      }
+      h1 i {
+        color: #7e7b7b;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>CSS Internal dan <i>Inline CSS</i></h1>
+    </header>
+    <!-- memasang warna latar belakang menggunakan inline css -->
+    <nav style="background-color: #88ddfa;">
+      <a href="lab2_css_dasar.html">CSS Dasar</a>
+      <a href="lab2_css_eksternal.html">CSS Eksternal</a>
+      <a href="lab1_tag_dasar.html">HTML Dasar</a>
+    </nav>
+    <!-- CSS ID Selector -->
+    <div id="intro">
+        <!-- experiment: meletakkan teks hello word di tengah -->
+      <h1 style="text-align: center; font-size: 30px;">Hello World</h1>
+      <!-- melihat mana yang akan ditampilkan pada browser -->
+      <p id="deklarasi-id" class="deklarasi-class" style="text-align: center; color: #dde9f5;">
+        Kami sedang belajar HTML dan CSS dasar, pada mata kuliah
+        <b>Pemrograman Web</b> di <i>Universitas Pelita Bangsa</i>. Pelajaran
+        pertama yang kami dapat adalah membuat tampilan web sederhana dalam
+        rangka mengenal tag-tag dasar HTML dan CSS.
+      </p>
+      <!-- CSS Class Selector -->
+      <a class="button btn-primary" href="#intro">Informasi selengkapnya.</a>
+    </div>
+  </body>
+</html>

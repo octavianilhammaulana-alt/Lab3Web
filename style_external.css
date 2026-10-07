@@ -1,0 +1,48 @@
+nav {
+    /* warna latar belakang di external css */
+  background: #31b861;
+  color: #fff;
+  padding: 10px;
+}
+nav a {
+  color: #fff;
+  text-decoration: none;
+  padding: 10px 20px;
+}
+nav .active,
+nav a:hover {
+  color: #737373;
+}
+/* ID Selector */
+#intro {
+  background: #418fb1;
+  border: 1px solid #099249;
+  min-height: 100px;
+  padding: 10px;
+}
+#intro h1 {
+  text-align: left;
+  border: 0;
+  color: #fff;
+}
+/* Class Selector */
+.button {
+  padding: 15px 20px;
+  background: #dc2323;
+  color: #fff;
+  display: inline-block;
+  margin: 10px;
+  text-decoration: none;
+}
+/* experiment: menambahkan efek hover pada tag a yang memiliki class button */
+.button:hover{
+    background-color: #626262;
+    cursor: pointer;
+}
+
+#deklarasi-id{
+    color: #fff;
+}
+.deklarasi-class{
+    color: aquamarine;
+}
